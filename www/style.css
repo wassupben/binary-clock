@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,600i');
+
+body {
+  width: 100%;
+  margin: auto;
+  background-color: #e5e5e5;
+  font-family: Bahiana, cursive;
+}
+
+h1 {
+  margin-top: 6%;
+  font-size: 60px;
+}
+
+.circle {
+	width: 80px;
+	height: 80px;
+	background: grey;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+  margin: 8px 0;
+}
+
+.timeColumn {
+  display: inline-block;
+  padding: 4% 14px;
+  font-size: 80px;
+}
+
+
+.column {
+  display: inline-block;
+}
+
+#container {
+  margin: auto;
+  width: 900px;
+  vertical-align: baseline;
+  text-align: center;
+}
+
+#time {
+  font-size: 80px;
+}
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+  color: #bababa;
+  text-align: center;
+  margin: auto;
+  width: 900px;
+  position: fixed;
+  bottom: 3px;
+}
+
+footer span {
+  padding: 0 10px;
+}
+
+a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+}
